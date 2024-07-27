@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -62,4 +64,34 @@ a {
 
 img.header-img {
     width: 500px;
+}
+
+/* INFORMATION */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card img {
+    width: 200px;
 }
