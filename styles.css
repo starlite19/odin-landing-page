@@ -8,16 +8,18 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 16px 200px;
 }
 
 .header-top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .links a, .secondary-text {
@@ -28,7 +30,7 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 32px;
     margin: 0;
     padding: 0;
 }
@@ -40,7 +42,9 @@ a {
 .header-content {
     display: flex;
     align-items: center;
-    gap: 48px;
+    justify-content: space-between;
+    padding: 100px 0px;
+    gap: 64px;
 }
 
 .intro {
@@ -51,7 +55,7 @@ a {
 
 .main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -60,6 +64,9 @@ a {
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
+    width: 120px;
+    flex: 1;
+    font-weight: bold;
 }
 
 img.header-img {
@@ -76,22 +83,28 @@ img.header-img {
 
 .info-header {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #1F2937;
+    padding: 32px 0px;
 }
 
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 64px;
+    margin: 0px 0px 100px 0px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    width: 150px;
+    gap: 8px;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .card img {
-    width: 200px;
+    width: 150px;
 }
